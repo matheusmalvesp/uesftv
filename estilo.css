@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+
 body{
-  background-color: #075AA9;
-  height: 100vh;
+    background-image: url('img/pontos.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tela{
+    height: 100%;
 }
 
 #site{
@@ -33,16 +40,16 @@ a{
 }
 
 a:hover{
-  transform: translate(-2px, -2px);
-  box-shadow: 5px 5px 5px black;
-  transition: transform .25s, border 0.25s;
+    background-color: #0aa2e9e5;
+    box-shadow: 5px 5px 5px rgba(255, 253, 253, 0.164);
+    color: #FFFFFF;
 }
 
 footer{
   position: relative;
-  bottom: 0%;
+  bottom: -5vh;
   width: 100vw;
-  margin: 1rem auto;
+  margin-top: 1rem;
 }
 
 footer p{
